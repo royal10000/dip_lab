@@ -19,4 +19,4 @@ rect_right=0.65
 A=((x-circle_x)**2+(y-circle_y)**2<=(min(h,w)*circle_radius)**2)
 B=((x>=w*rect_left) & (x<w*rect_right) & (y>=h*0.45) & (y<h*0.85))
 
-fig,axes=plt.subplots()
+fig,axes=plt.subplots(  )
